@@ -1,8 +1,8 @@
 [build]
   publish = "public"
-  command = "npm run build"
+  command = "ls -all"
 
 [[redirects]]
   from = "/*"
-  to = "https://www.google.com/:splat"
+  to = "${HOST_NAME}/:splat"
   status = 200
