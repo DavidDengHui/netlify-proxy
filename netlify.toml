@@ -4,5 +4,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "${HOST_NAME}/:splat"
+  to = "https://www.google.com/:splat"
   status = 200
