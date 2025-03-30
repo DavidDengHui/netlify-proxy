@@ -1,8 +1,0 @@
-[build]
-  publish = "."
-  command = "echo 'No build needed'"
-
-[[redirects]]
-  from = "/*"
-  to = "https://github.com/:splat"
-  status = 200
